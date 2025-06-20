@@ -7,17 +7,20 @@ function scuberGreetingForFeet(x){
     let price = "twenty bucks.";
     return ("That will be twenty bucks.");
   }
-  else if (x >=2000){
-    let price = "thirty bucks.";
-    return ("I will gladly take your thirty bucks.");   
+   else if (x > 2000 && x<= 2500) {
+    return 'I will gladly take your thirty bucks.';
+  } 
+  else if (x > 2500){
+    // if (x > 2500){
+    return ("No can do.");
   }
-    return ('No can do.');
+  
   
   // Write your code here!
 }
 
 function ternaryCheckCity(city){
-  
+
   if (city==="NYC"){
     return ("Ok, sounds good.");
   }
